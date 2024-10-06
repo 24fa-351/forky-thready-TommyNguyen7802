@@ -1,0 +1,159 @@
+./main 8 1
+Process 1 (PID 5954) beginning, will sleep for 4 seconds
+Process 2 (PID 5955) beginning, will sleep for 2 seconds
+Process 3 (PID 5956) beginning, will sleep for 8 seconds
+Process 4 (PID 5957) beginning, will sleep for 4 seconds
+Process 5 (PID 5958) beginning, will sleep for 4 seconds
+Process 6 (PID 5959) beginning, will sleep for 8 seconds
+Process 7 (PID 5960) beginning, will sleep for 7 seconds
+Process 8 (PID 5961) beginning, will sleep for 8 seconds
+Process 2 (PID 5955) exiting
+Process 1 (PID 5954) exiting
+Process 4 (PID 5957) exiting
+Process 5 (PID 5958) exiting
+Process 7 (PID 5960) exiting
+Process 3 (PID 5956) exiting
+Process 6 (PID 5959) exiting
+Process 8 (PID 5961) exiting
+
+./main 16 2
+Process 1 (PID 6026) beginning, will sleep for 1 seconds
+Process 1 (PID 6026) creating Process 2
+Process 1 (PID 6026) exiting
+Process 2 (PID 6027) beginning, will sleep for 2 seconds
+Process 2 (PID 6027) creating Process 3
+Process 2 (PID 6027) exiting
+Process 3 (PID 6028) beginning, will sleep for 5 seconds
+Process 3 (PID 6028) creating Process 4
+Process 3 (PID 6028) exiting
+Process 4 (PID 6029) beginning, will sleep for 7 seconds
+Process 4 (PID 6029) creating Process 5
+Process 4 (PID 6029) exiting
+Process 5 (PID 6030) beginning, will sleep for 8 seconds
+Process 5 (PID 6030) creating Process 6
+Process 5 (PID 6030) exiting
+Process 6 (PID 6032) beginning, will sleep for 2 seconds
+Process 6 (PID 6032) creating Process 7
+Process 6 (PID 6032) exiting
+Process 7 (PID 6033) beginning, will sleep for 7 seconds
+Process 7 (PID 6033) creating Process 8
+Process 7 (PID 6033) exiting
+Process 8 (PID 6034) beginning, will sleep for 5 seconds
+Process 8 (PID 6034) creating Process 9
+Process 8 (PID 6034) exiting
+Process 9 (PID 6035) beginning, will sleep for 4 seconds
+Process 9 (PID 6035) creating Process 10
+Process 9 (PID 6035) exiting
+Process 10 (PID 6036) beginning, will sleep for 5 seconds
+Process 10 (PID 6036) creating Process 11
+Process 10 (PID 6036) exiting
+Process 11 (PID 6045) beginning, will sleep for 3 seconds
+Process 11 (PID 6045) creating Process 12
+Process 11 (PID 6045) exiting
+Process 12 (PID 6046) beginning, will sleep for 2 seconds
+Process 12 (PID 6046) creating Process 13
+Process 12 (PID 6046) exiting
+Process 13 (PID 6047) beginning, will sleep for 1 seconds
+Process 13 (PID 6047) creating Process 14
+Process 13 (PID 6047) exiting
+Process 14 (PID 6048) beginning, will sleep for 5 seconds
+Process 14 (PID 6048) creating Process 15
+Process 14 (PID 6048) exiting
+Process 15 (PID 6050) beginning, will sleep for 1 seconds
+Process 15 (PID 6050) creating Process 16
+Process 15 (PID 6050) exiting
+Process 16 (PID 6051) beginning, will sleep for 7 seconds
+Process 16 (PID 6051) exiting
+
+./main 8 3
+Process 1 (PID 38181) creating left child (PID 38182)
+Process 1 (PID 38182, PPID 38181) beginning, will sleep for 5 seconds
+Process 2 (PID 38181) creating right child (PID 38183)
+Process 3 (PID 38182) creating left child (PID 38184)
+Process 2 (PID 38183, PPID 38181) beginning, will sleep for 5 seconds
+Process 3 (PID 38184, PPID 38182) beginning, will sleep for 7 seconds
+Process 3 (PID 38183) creating left child (PID 38186)
+Process 4 (PID 38182) creating right child (PID 38185)
+Process 4 (PID 38183) creating right child (PID 38188)
+Process 5 (PID 38184) creating left child (PID 38187)
+Process 3 (PID 38186, PPID 38183) beginning, will sleep for 2 seconds
+Process 4 (PID 38185, PPID 38182) beginning, will sleep for 2 seconds
+Process 5 (PID 38187, PPID 38184) beginning, will sleep for 4 seconds
+Process 5 (PID 38186) creating left child (PID 38190)
+Process 7 (PID 38187) creating left child (PID 38191)
+Process 5 (PID 38185) creating left child (PID 38192)
+Process 6 (PID 38186) creating right child (PID 38193)
+Process 6 (PID 38184) creating right child (PID 38189)
+Process 6 (PID 38185) creating right child (PID 38195)
+Process 4 (PID 38188, PPID 38183) beginning, will sleep for 8 seconds
+Process 6 (PID 38189, PPID 38184) beginning, will sleep for 3 seconds
+Process 5 (PID 38190, PPID 38186) beginning, will sleep for 1 seconds
+Process 5 (PID 38188) creating left child (PID 38196)
+Process 7 (PID 38189) creating left child (PID 38197)
+Process 6 (PID 38199, PPID 38188) beginning, will sleep for 3 seconds
+Process 7 (PID 38198, PPID 38190) beginning, will sleep for 4 seconds
+Process 5 (PID 38192, PPID 38185) beginning, will sleep for 5 seconds
+Process 6 (PID 38193, PPID 38186) beginning, will sleep for 5 seconds
+Process 7 (PID 38199) creating left child (PID 38200)
+Process 8 (PID 38187) creating right child (PID 38194)
+Process 7 (PID 38190) creating left child (PID 38198)
+Process 7 (PID 38197, PPID 38189) beginning, will sleep for 1 seconds
+Process 7 (PID 38200, PPID 38199) beginning, will sleep for 2 seconds
+Process 7 (PID 38202, PPID 38192) beginning, will sleep for 5 seconds
+Process 7 (PID 38203, PPID 38193) beginning, will sleep for 1 seconds
+Process 6 (PID 38188) creating right child (PID 38199)
+Process 7 (PID 38191, PPID 38187) beginning, will sleep for 5 seconds
+Process 8 (PID 38194, PPID 38187) beginning, will sleep for 3 seconds
+Process 8 (PID 38189) creating right child (PID 38201)
+Process 8 (PID 38204, PPID 38199) beginning, will sleep for 4 seconds
+Process 8 (PID 38201, PPID 38189) beginning, will sleep for 7 seconds
+Process 7 (PID 38192) creating left child (PID 38202)
+Process 7 (PID 38193) creating left child (PID 38203)
+Process 8 (PID 38205, PPID 38190) beginning, will sleep for 3 seconds
+Process 6 (PID 38195, PPID 38185) beginning, will sleep for 3 seconds
+Process 8 (PID 38192) creating right child (PID 38206)
+Process 8 (PID 38193) creating right child (PID 38207)
+Process 5 (PID 38196, PPID 38188) beginning, will sleep for 1 seconds
+Process 7 (PID 38195) creating left child (PID 38208)
+Process 8 (PID 38206, PPID 38192) beginning, will sleep for 2 seconds
+Process 8 (PID 38207, PPID 38193) beginning, will sleep for 5 seconds
+Process 8 (PID 38195) creating right child (PID 38209)
+Process 8 (PID 38199) creating right child (PID 38204)
+Process 7 (PID 38196) creating left child (PID 38210)
+Process 8 (PID 38190) creating right child (PID 38205)
+Process 7 (PID 38208, PPID 38195) beginning, will sleep for 1 seconds
+Process 8 (PID 38196) creating right child (PID 38211)
+Process 8 (PID 38209, PPID 38195) beginning, will sleep for 4 seconds
+Process 7 (PID 38210, PPID 38196) beginning, will sleep for 4 seconds
+Process 8 (PID 38211, PPID 38196) beginning, will sleep for 7 seconds
+Process 7 (PID 38197, PPID 38189) exiting
+Process 7 (PID 38203, PPID 38193) exiting
+Process 7 (PID 38208, PPID 38195) exiting
+Process 7 (PID 38200, PPID 38199) exiting
+Process 8 (PID 38206, PPID 38192) exiting
+Process 8 (PID 38194, PPID 38187) exiting
+Process 8 (PID 38205, PPID 38190) exiting
+Process 7 (PID 38198, PPID 38190) exiting
+Process 8 (PID 38204, PPID 38199) exiting
+Process 8 (PID 38209, PPID 38195) exiting
+Process 7 (PID 38210, PPID 38196) exiting
+Process 7 (PID 38202, PPID 38192) exiting
+Process 7 (PID 38191, PPID 38187) exiting
+Process 5 (PID 38190, PPID 38186) exiting
+Process 8 (PID 38207, PPID 38193) exiting
+Process 8 (PID 38201, PPID 38189) exiting
+Process 6 (PID 38199, PPID 38188) exiting
+Process 8 (PID 38211, PPID 38196) exiting
+Process 6 (PID 38195, PPID 38185) exiting
+Process 5 (PID 38196, PPID 38188) exiting
+Process 5 (PID 38187, PPID 38184) exiting
+Process 5 (PID 38192, PPID 38185) exiting
+Process 6 (PID 38189, PPID 38184) exiting
+Process 6 (PID 38193, PPID 38186) exiting
+Process 4 (PID 38185, PPID 38182) exiting
+Process 3 (PID 38186, PPID 38183) exiting
+Process 4 (PID 38188, PPID 38183) exiting
+Process 3 (PID 38184, PPID 38182) exiting
+Process 2 (PID 38183, PPID 38181) exiting
+Process 1 (PID 38182, PPID 38181) exiting
+
